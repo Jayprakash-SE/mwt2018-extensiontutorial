@@ -1,0 +1,45 @@
+{
+	"name": "Test",
+	"version": "0.0.1",
+	"author": [
+		"Jay",
+		"Prakash"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Test",
+	"license-name": "GPL-2.0+",
+	
+	"descriptionmsg": "test-desc",
+	
+	"type": "specialpage",
+	
+	"AutoloadClasses": {
+			"TestClass": "TestSpecial.php"
+
+	},
+	
+	"ExtensionMessagesFiles": {
+		"TestAlias": "Test.i18n.alias.php"
+	},
+		
+	"MessagesDirs": {
+		"Test": [
+			"i18n"
+		]
+	},
+	
+	"SpecialPages": {
+		"HelloWorld": "TestClass"
+	},
+	
+	"AvailableRights": [
+		"testgroup"
+	],
+	
+	"GroupPermissions": {
+		"bureaucrat": {
+			"testgroup": false
+		}
+	},
+	"manifest_version": 2
+		
+}
