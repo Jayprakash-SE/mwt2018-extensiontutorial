@@ -2,7 +2,7 @@
 
 
 /**
- * Aliases for special pages of the BoilerPlate extension
+ * Aliases for special pages of the Test extension
  *
  * @file
  * @ingroup Extensions
