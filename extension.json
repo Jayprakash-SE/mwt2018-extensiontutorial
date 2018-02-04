@@ -37,7 +37,7 @@
 	
 	"GroupPermissions": {
 		"bureaucrat": {
-			"testgroup": false
+			"testgroup": true
 		}
 	},
 	"manifest_version": 2
